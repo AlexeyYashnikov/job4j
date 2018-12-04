@@ -6,12 +6,13 @@ package ru.job4j.calculate;
  * @since 2018-12-04
  * @version 0,1
 */
-public class Calculate 
+public class Calculate {
 /**
  * Main
  * @param args - аргументы
 */
     public static void main(String[] args) {
+		
 /**
  * Method println
  * @return string Hello World!
@@ -19,3 +20,4 @@ public class Calculate
     System.out.println("Hello World!");
     }
 }
+
