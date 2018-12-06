@@ -20,9 +20,8 @@ public class Calculate {
 		* @param name Alex Yashnikov.
 		* @return Echo plus Alex Yashnikov.
 		*/
-		public String echo(String name) {
+		public class String echo(String name) {
 			return "Echo, echo, echo : " + name;
 		}
-	
 	}
 }
