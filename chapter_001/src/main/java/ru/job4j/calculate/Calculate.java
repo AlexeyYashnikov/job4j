@@ -12,16 +12,16 @@ public class Calculate {
  * @param args - arguments
 */
     public static void main(String[] args) {
-		
 		System.out.println("Hello World!");
-	
+	}
+
 		/**
 		* Method echo.
 		* @param name Alex Yashnikov.
 		* @return Echo plus Alex Yashnikov.
 		*/
-		public class String echo(String name) {
+
+	public String echo(String name) {
 			return "Echo, echo, echo : " + name;
-		}
 	}
 }
