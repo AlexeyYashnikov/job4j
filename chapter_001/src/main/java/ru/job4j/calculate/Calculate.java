@@ -1,13 +1,13 @@
 package ru.job4j.calculate;
 /**
  * Class Demo class Hello World!
- * @author Alex Yashnikov
- * @since 2018-12-04
+ * @author Alex Yashnikov.
+ * @since 2018-12-04.
  * @version 0.1
 */
 public class Calculate {
 /**
- * Main
+ * Main method.
  * @param args - arguments
 */
     public static void main(String[] args) {
