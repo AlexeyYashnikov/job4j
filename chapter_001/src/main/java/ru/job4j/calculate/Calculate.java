@@ -1,5 +1,4 @@
 package ru.job4j.calculate;
-
 /**
  * Class Demo class Hello World!
  * @author Alex Yashnikov
