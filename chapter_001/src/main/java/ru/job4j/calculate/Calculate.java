@@ -4,23 +4,23 @@ package ru.job4j.calculate;
  * @author Alex Yashnikov.
  * @since 2018-12-04.
  * @version 0.1
-*/
+ */
 public class Calculate {
-/**
- * Main method.
- * @param args - arguments.
-*/
+    /**
+     * Main method.
+     * @param args - arguments.
+     */
     public static void main(String[] args) {
-		System.out.println("Hello World!");
-	}
+        System.out.println("Hello World!");
+    }
 
-		/**
-		* Method echo.
-		* @param name Alex Yashnikov.
-		* @return Echo plus Alex Yashnikov.
-		*/
+    /**
+     * Method echo.
+     * @param name Alex Yashnikov.
+     * @return Echo plus Alex Yashnikov.
+     */
 
-	public String echo(String name) {
-			return "Echo, echo, echo : " + name;
-	}
+    public String echo(String name) {
+        return "Echo, echo, echo : " + name;
+    }
 }
