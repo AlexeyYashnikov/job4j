@@ -11,7 +11,10 @@ public class Calculate {
      * @param args - arguments.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int vacationDays = 1;
+//        System.out.println("Hello World!");
+//        System.out.println(2.0-1.1);
+        System.out.println(vacationDays);
     }
 
     /**
