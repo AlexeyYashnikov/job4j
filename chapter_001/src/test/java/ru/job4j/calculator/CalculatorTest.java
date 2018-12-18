@@ -5,16 +5,27 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class CalculatorTest  {
+/**
+ * Test.
+ * @author Alex Yashnikov
+ * @version $Id$
+ * @since 0.1
+ */
+public class CalculatorTest {
+    /**
+     * Test of Add method.
+     */
     @Test
-    public void whenAdd1Plus1Then2()  {
+    public void whenAdd1Plus1Then2() {
         Calculator calc = new Calculator();
         calc.add(1D, 1D);
         double result = calc.getResult();
         double expected = 2D;
         assertThat(result, is(expected));
     }
-    
+    /**
+     * Test of Subtract method.
+     */
     @Test
     public void whenSubtract5from7Then2() {
         Calculator calc = new Calculator();
@@ -23,7 +34,9 @@ public class CalculatorTest  {
         double expected = 2D;
         assertThat(result, is(expected));
     }
-    
+    /**
+     * Test multiple method.
+     */
     @Test
     public void whenMultiple4on7Then() {
         Calculator calc = new Calculator();
@@ -32,7 +45,9 @@ public class CalculatorTest  {
         double expected = 28D;
         assertThat(result, is(expected));
     }
-    
+    /**
+     * Test divide method.
+     */
     @Test
     public void whenDivide9On3Then() {
         Calculator calc = new Calculator();
