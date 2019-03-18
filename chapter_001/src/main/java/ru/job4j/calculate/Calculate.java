@@ -12,8 +12,8 @@ public class Calculate {
      */
     public static void main(String[] args) {
         int vacationDays = 1;
-//        System.out.println("Hello World!");
-//        System.out.println(2.0-1.1);
+        System.out.println("Hello World!");
+        System.out.println(2.0 - 1.1);
         System.out.println(vacationDays);
     }
 
